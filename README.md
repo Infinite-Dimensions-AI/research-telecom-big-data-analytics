@@ -1,8 +1,8 @@
 # Telecommunications Big Data Analytics Research
 
-**2012–2014 · Accenture** · Public research workspace in **Infinite Dimensions AI**.
+**2012–2014 · Telecommunications analytics research** · Public research workspace in **Infinite Dimensions AI**.
 
-Reconstruct TM Forum-aligned telecommunications analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems.
+Reconstruct Telecommunications industry-aligned analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems.
 
 ## Research motivation
 
@@ -78,7 +78,7 @@ This repository is **public**, and its source code is public. It has no open-sou
 
 VitePress is used instead of Docusaurus for light, Markdown-first documentation. The Three.js browser experience is a separate React/Vite build, packaged under the same static Pages site. GitHub Pages content is **public**, not a private research portal. For authenticated private research, link to or deploy the compiled application behind your own private research-site authentication. See [portal architecture](./docs/portal.md).
 
-The wiki is enabled via the GitHub command-line client, but its initial Home page and Sidebar remain local seeds until you initialise and publish the separate wiki Git repository. Existing projects (including Rock AI historical work, Blender Training Wheels, and the earlier Optical Model Delivery Network) remain separate unless explicitly linked later.
+The wiki is enabled via the GitHub command-line client, but its initial Home page and Sidebar remain local seeds until you initialise and publish the separate wiki Git repository. Related research projects remain separate unless explicitly linked later.
 
 ## Programme integrity
 

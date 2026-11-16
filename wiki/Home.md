@@ -1,6 +1,6 @@
 # Telecommunications Big Data Analytics Research
 
-Reconstruct TM Forum-aligned telecommunications analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems.
+Reconstruct Telecommunications industry-aligned analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems.
 
 This is the proposed GitHub Wiki homepage seed. The Wiki must be initialised via GitHub and updated via its separate `.wiki.git` repository before this page becomes live.
 

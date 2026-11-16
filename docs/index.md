@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: "Telecommunications Big Data Analytics Research"
-  text: "2012–2014 · Accenture"
-  tagline: "Reconstruct TM Forum-aligned telecommunications analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems."
+  text: "2012–2014 · Telecommunications analytics research"
+  tagline: "Reconstruct Telecommunications industry-aligned analytics across business and operations support: churn, customer lifetime value, influence graphs, proactive service assurance, retention offers, fraud and next-best-action decision systems."
   actions:
     - theme: brand
       text: Interactive Research Demo
