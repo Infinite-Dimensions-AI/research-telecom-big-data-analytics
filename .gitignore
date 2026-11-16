@@ -1,0 +1,16 @@
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/unplugged/
+.pnp.*
+dist/
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+.env.*.local
+coverage/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+.turbo/

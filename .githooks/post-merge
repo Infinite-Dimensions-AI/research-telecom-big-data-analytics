@@ -1,0 +1,7 @@
+#!/bin/sh
+# Optional local-only validation; enabled via yarn hooks:install.
+branch=$(git branch --show-current 2>/dev/null)
+if [ "$branch" = "main" ]; then
+  echo "Checking locally merged main (no GitHub runner) ..."
+  corepack yarn main:check || exit $?
+fi

@@ -1,0 +1,42 @@
+{
+  "name": "research-telecom-big-data-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.18.1",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace @infinite-dimensions-ai/research-telecom-big-data-analytics-web dev",
+    "dev:docs": "vitepress dev docs",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "ci:local": "yarn lint && yarn typecheck && yarn test && yarn build && yarn docs:build",
+    "main:check": "yarn ci:local",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
+    "release:prepare": "yarn main:check && changeset version",
+    "release:publish": "yarn main:check && changeset publish",
+    "release:tag": "node scripts/git-flow.mjs tag",
+    "branch:feature": "node scripts/git-flow.mjs feature",
+    "branch:fix": "node scripts/git-flow.mjs fix",
+    "branch:release": "node scripts/git-flow.mjs release",
+    "hooks:install": "node scripts/git-flow.mjs hooks",
+    "docs:build": "yarn workspace @infinite-dimensions-ai/research-telecom-big-data-analytics-web build && vitepress build docs && node scripts/package-pages.mjs",
+    "docs:deploy": "yarn docs:build && gh-pages -d docs/.vitepress/dist -b gh-pages -m 'docs: publish manually' "
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7",
+    "gh-pages": "^6.3.0",
+    "turbo": "^2.5.0",
+    "typescript": "~5.9.3",
+    "vitepress": "^1.6.4"
+  }
+}
